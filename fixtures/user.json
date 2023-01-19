@@ -1,0 +1,44 @@
+[
+    {
+        "credential": "valid user credential",
+        "username": "John Doe",
+        "password": "ThisIsNotAPassword",
+        "url": "/#appointment",
+        "hasError": false
+    },
+    {
+        "credential": "invalid username",
+        "username": "John Dart",
+        "password": "ThisIsNotAPassword",
+        "url": "/profile.php#login",
+        "hasError": true
+    },
+    {
+        "credential": "invalid password",
+        "username": "John Doe",
+        "password": "ThisIsSparta",
+        "url": "/profile.php#login",
+        "hasError": true
+    },
+    {
+        "credential": "empty fields",
+        "username": "",
+        "password": "",
+        "url": "/profile.php#login",
+        "hasError": true
+    },
+    {
+        "credential": "empty username field",
+        "username": "",
+        "password": "ThisIsNotAPassword",
+        "url": "/profile.php#login",
+        "hasError": true
+    },
+    {
+        "credential": "empty password field",
+        "username": "John Doe",
+        "password": "",
+        "url": "/profile.php#login",
+        "hasError": true
+    }
+]
