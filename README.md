@@ -1,2 +1,2 @@
-##Automated Playwright tests on https://katalon-demo-cura.herokuapp.com/
+## Automated Playwright tests on https://katalon-demo-cura.herokuapp.com/
 OOP tests performed on login, menu options, appointment form functionalities,...
